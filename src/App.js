@@ -1,18 +1,16 @@
-import './App.css';
+import {Button, createTheme, ThemeProvider} from "@mui/material";
+
+
+const DEFAULT_THEME = createTheme({});
+
 
 const App = () => {
     return (
-        <div className="App">
-            <header className="App-header">
-                <p>
-                    Welcome to <b style={{color: "orange"}}>XeoSmartHome</b>!
-                </p>
-                <p>
-                    Claudiu
-                </p>
-            </header>
-        </div>
+        <ThemeProvider theme={DEFAULT_THEME}>
+            <Button variant="contained">Hello World</Button>
+        </ThemeProvider>
     );
 };
 
 export default App;
+
