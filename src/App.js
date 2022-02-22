@@ -7,6 +7,9 @@ const App = () => {
                 <p>
                     Welcome to <b style={{color: "orange"}}>XeoSmartHome!</b>
                 </p>
+                <p>
+                    My name in Claudiu.
+                </p>
             </header>
         </div>
     );
