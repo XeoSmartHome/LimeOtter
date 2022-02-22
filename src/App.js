@@ -5,10 +5,7 @@ const App = () => {
         <div className="App">
             <header className="App-header">
                 <p>
-                    Welcome to <b style={{color: "orange"}}>XeoSmartHome!</b>
-                </p>
-                <p>
-                    My name in Claudiu.
+                    Welcome to <b style={{color: "orange"}}>XeoSmartHome</b>!
                 </p>
             </header>
         </div>
