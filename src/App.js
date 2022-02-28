@@ -6,9 +6,9 @@ import {
     Route,
     Routes,
 } from "react-router-dom";
-import LandingPage from "./Pages/LandingPage";
+import HomePage from "./Pages/Home/HomePage";
 import NavBar from "./Components/NavBar";
-import ProductsPage from "./Pages/Products/ProductsPage";
+import Footer from "./Components/Footer";
 
 
 const DEFAULT_THEME = createTheme({});
@@ -21,8 +21,9 @@ const App = () => {
                 <BrowserRouter>
                     <NavBar/>
                     <Routes>
-                        <Route path={"/"} element={<ProductsPage/>} />
+                        <Route path={"/"} element={<HomePage/>}/>
                     </Routes>
+                    <Footer/>
                 </BrowserRouter>
             </ThemeProvider>
         </StoreProvider>
